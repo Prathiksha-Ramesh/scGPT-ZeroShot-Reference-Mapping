@@ -1,4 +1,34 @@
-pandas 
-leidenalg 
-scanpy 
-scvi-tools
+# Core ML
+torch==2.3.0
+torchtext==0.17.2
+
+# scGPT
+scgpt==0.2.4
+
+# Single-cell analysis
+scanpy==1.9.8
+scvi-tools==1.1.2
+scib==1.1.5
+leidenalg==0.10.2
+umap-learn==0.5.6
+numba==0.59.1
+scikit-misc==0.3.1
+
+# Data
+datasets==2.20.0
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+
+# Utilities
+typing-extensions==4.12.2
+tqdm==4.66.4
+orbax==0.1.7
+faiss-cpu==1.8.0.post1
+
+# Notebook
+ipykernel==6.29.5
+jupyter==1.0.0
+
+# Optional
+cell-gears==0.0.2
