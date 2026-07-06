@@ -135,11 +135,11 @@ pip install -r requirements.txt
 Key dependencies:
 - `scgpt` — pretrained foundation model & embedding utilities
 - `scanpy` / `anndata` — single-cell data handling
-- `faiss-cpu` — fast similarity search (optional but recommended)
+- `faiss-cpu` — fast similarity search (recommended)
 - `scikit-learn` — k-NN classification & evaluation metrics
 - `seaborn` / `matplotlib` — visualization
 
-> ⚠️ `flash-attn` is optional. Without it, scGPT falls back to a standard PyTorch transformer implementation (used by default in this notebook, including on CPU-only machines).
+
 
 ---
 
