@@ -10,7 +10,7 @@
 ![Stars](https://img.shields.io/github/stars/Prathiksha-Ramesh/scGPT-ZeroShot-Reference-Mapping?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/Prathiksha-Ramesh/scGPT-ZeroShot-Reference-Mapping)
 
-An end-to-end zero-shot cell-type annotation pipeline that uses the pretrained **scGPT** foundation model to embed lung cancer scRNA-seq data and transfer reference cell-type labels to unlabeled query cells — covering embedding generation, UMAP visualization, k-NN label transfer, and full evaluation — with **no fine-tuning required**.
+An end-to-end zero-shot cell-type annotation pipeline that uses the pretrained **scGPT** foundation model to embed lung cancer scRNA-seq data and transfer reference cell-type labels to unlabeled query cells covering embedding generation, UMAP visualization, k-NN label transfer, and full evaluation with **no fine-tuning required**.
 
 Applied here to a **non-small-cell lung cancer scRNA-seq dataset**, this pipeline achieves **96.95% accuracy** and a **95.20% macro F1-score** in recovering ground-truth cell-type labels for query cells it never saw during training.
 
@@ -18,13 +18,13 @@ Applied here to a **non-small-cell lung cancer scRNA-seq dataset**, this pipelin
 
 ## Overview
 
-Manually annotating cell types in single-cell RNA-seq data is slow, subjective, and requires deep domain expertise. This project shows that scGPT's pretrained embeddings alone — with **zero fine-tuning** — are expressive enough to power accurate cell-type transfer via a simple nearest-neighbor vote in embedding space.
+Manually annotating cell types in single-cell RNA-seq data is slow, subjective, and requires deep domain expertise. This project shows that scGPT's pretrained embeddings alone with **zero fine-tuning**  are expressive enough to power accurate cell-type transfer via a simple nearest-neighbor vote in embedding space.
 
 **Pipeline at a glance:**
 
 ```
 Raw reference (labeled)  ──┐
-                            ├──► scGPT_human encoder ──► Joint embedding space ──► k-NN majority vote ──► Predicted labels
+                            ├──► scGPT_human encoder ──► Joint embedding space ──► kNN majority vote ──► Predicted labels
 Raw query (unlabeled)    ──┘
 ```
 
