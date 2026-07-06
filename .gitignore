@@ -222,3 +222,8 @@ __marimo__/
 model/best_model.pt
 
 model/*.pt
+
+# Large data files
+data/*.h5ad
+data/*.h5
+data/*.loom
