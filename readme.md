@@ -61,7 +61,8 @@ These results confirm that scGPT's pretrained representation generalizes well ac
 
 ## Dataset
 
-The pipeline is demonstrated on a processed **lung cancer scRNA-seq** dataset, split into:
+
+The pipeline is demonstrated on a processed **lung adenocarcinoma single-cell RNA-seq dataset** comprising **14 primary human lung adenocarcinoma samples** (32,493 cells total), originally profiled by Kim et al. and made publicly available via the [Curated Cancer Cell Atlas (3CA)](https://www.weizmann.ac.il/sites/3CA/lung).
 
 | Split | File | Cells | Role |
 |---|---|---|---|
