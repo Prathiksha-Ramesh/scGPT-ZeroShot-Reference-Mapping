@@ -206,3 +206,5 @@ See [LICENSE](./LICENSE) for details.
 ## Acknowledgments
 
 - [bowang-lab/scGPT](https://github.com/bowang-lab/scGPT) for the pretrained foundation model and embedding utilities this project builds on.
+  
+- Last updated: July 2026
